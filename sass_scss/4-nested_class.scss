@@ -1,13 +1,16 @@
-/* A Sass file that assigns:
-You must use nested declarations */
+/* 
+A Sass file that assigns colors using nested declarations 
+*/
 
-body{
-	color: #3D3D3D;
-}
-
-body{
-	.red{
-		color: #FF0000;
+/* Set default text color for body */
+body {
+	color: #3D3D3D; /* Default text color for body */
+  }
+  
+  /* Nested declaration to apply red color to specific elements */
+  body {
+	.red {
+	  color: #FF0000; /* Apply red color to elements with class 'red' */
 	}
-}
-
+  }
+  
