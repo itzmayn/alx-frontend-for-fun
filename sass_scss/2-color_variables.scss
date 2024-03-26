@@ -1,23 +1,26 @@
-/** A Sass file that assigns:
+/** 
+ * A Sass file that assigns:
+ * - The text color #3D3D3D to the HTML tags body and p
+ * - The background color #6D6D6D to the HTML tags body and h2
+ * You must use 2 Sass variables 
+ **/
 
-The text color #3D3D3D to the HTML tags body and p
-The background color #6D6D6D to the HTML tags body and h2
-You must use 2 Sass variables **/
-
-$text-color: #3D3D3D;
-$bg-color: #6D6D6D;
-
-body{
-	color: $text-color;
-	background-color: $bg-color;
-}
-
-p{
-        color: $text-color;
-}
-
-h2{
-        background-color: $bg-color;
-}
-
-
+ $text-color: #3D3D3D; /* Define text color variable */
+ $bg-color: #6D6D6D; /* Define background color variable */
+ 
+ /* Apply text color and background color to body */
+ body {
+   color: $text-color; /* Set text color for body */
+   background-color: $bg-color; /* Set background color for body */
+ }
+ 
+ /* Apply text color to paragraph */
+ p {
+   color: $text-color; /* Set text color for paragraphs */
+ }
+ 
+ /* Apply background color to h2 */
+ h2 {
+   background-color: $bg-color; /* Set background color for h2 */
+ }
+ 
